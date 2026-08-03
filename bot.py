@@ -3,7 +3,7 @@ from google import genai
 
 def main():
     # Khởi tạo client, thư viện sẽ tự động nhận diện biến môi trường GEMINI_API_KEY
-    client = genai.Client()
+    client = genai.client()
 
     # Yêu cầu Gemini tạo nội dung (bạn có thể thay đổi câu lệnh theo ý muốn)
     response = client.models.generate_content(
