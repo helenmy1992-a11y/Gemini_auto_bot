@@ -7,7 +7,7 @@ def main():
 
     # Yêu cầu Gemini tạo nội dung (bạn có thể thay đổi câu lệnh theo ý muốn)
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-1.5-flash',
         contents='Hãy viết một câu danh ngôn ngắn gọn truyền cảm hứng bắt đầu ngày mới.',
     )
     
